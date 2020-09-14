@@ -1,6 +1,8 @@
 # Android WifiP2P Communication
  Example/ Template code of how to create a TCP connection between two android phones using Wifi Direct
  
+ The code for the TCP Sockets also works for any type of internet communication, provided you know the IP that you're trying to connect to.
+ 
  I'm working on connecting a raspberry pi to an android through Wifi Direct as well, and I'll probably upload a repo with a detailed tutorial on how to do that once I get it to work, since there's pretty much no information on how to do it on the internet and I had to do a lot of research, learn a lot of network engineering and pretty much reinvent the wheel.
  
  The folder WifiDirectTestApp2 contains a fully functional android app that can be run on android phones that are connected via Wifi Direct. The main java code for the app is in
